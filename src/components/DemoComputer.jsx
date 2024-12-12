@@ -1020,6 +1020,6 @@ const DemoComputer = (props) => {
     )
 }
 
-useGLTF.preload('/models/computer.glb')
+useGLTF.preload('/public/models/computer.glb')
 
 export default DemoComputer;
