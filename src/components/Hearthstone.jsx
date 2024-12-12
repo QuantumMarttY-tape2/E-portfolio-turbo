@@ -41,7 +41,7 @@ const Hearthstone = (props) => {
   )
 }
 
-useGLTF.preload('/models/hearthstone.glb')
+useGLTF.preload('/public/models/hearthstone.glb')
 
 export default Hearthstone;
 
