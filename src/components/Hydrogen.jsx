@@ -76,6 +76,6 @@ const Hydrogen = (props) => {
   )
 }
 
-useGLTF.preload('/models/hydrogen.glb')
+useGLTF.preload('/public/models/hydrogen.glb')
 
 export default Hydrogen;
