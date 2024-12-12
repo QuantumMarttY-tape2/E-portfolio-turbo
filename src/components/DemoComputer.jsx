@@ -9,10 +9,10 @@ import gsap from 'gsap';
 
 const DemoComputer = (props) => {
     const group = useRef()
-    const { nodes, materials } = useGLTF('/models/computer.glb')
+    const { nodes, materials } = useGLTF('/public/models/computer.glb')
 
     // Video Texture.
-    const txt = useVideoTexture(props.texture ? props.texture : '/textures/project/project1.mp4')
+    const txt = useVideoTexture(props.texture ? props.texture : '/public/textures/project/project1.mp4')
 
     // The videos given in the instruction are upside down. So flip them.
     useEffect(() => {
