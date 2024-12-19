@@ -10,7 +10,7 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
 const Hearthstone = (props) => {
-  const { nodes, materials } = useGLTF('/public/models/hearthstone.glb')
+  const { nodes, materials } = useGLTF('/models/hearthstone.glb')
   return (
     <group {...props} dispose={null}>
       <mesh
@@ -41,7 +41,7 @@ const Hearthstone = (props) => {
   )
 }
 
-useGLTF.preload('/public/models/hearthstone.glb')
+useGLTF.preload('/models/hearthstone.glb')
 
 export default Hearthstone;
 

@@ -7,13 +7,13 @@ import { useAnimations, useFBX, useGLTF } from '@react-three/drei'
 const Developer = ({ animationName = 'idle', ...props }) => {
     const group = useRef();
 
-    const { nodes, materials } = useGLTF('/public/models/human/developer.glb')
+    const { nodes, materials } = useGLTF('/models/human/developer.glb')
 
     // Import animations.
-    const { animations: idleAnimation } = useFBX('/public/models/animations/idle.fbx')
-    const { animations: saluteAnimation } = useFBX('/public/models/animations/salute.fbx')
-    const { animations: clappingAnimation } = useFBX('/public/models/animations/clapping.fbx')
-    const { animations: victoryAnimation } = useFBX('/public/models/animations/victory.fbx')
+    const { animations: idleAnimation } = useFBX('/models/animations/idle.fbx')
+    const { animations: saluteAnimation } = useFBX('/models/animations/salute.fbx')
+    const { animations: clappingAnimation } = useFBX('/models/animations/clapping.fbx')
+    const { animations: victoryAnimation } = useFBX('/models/animations/victory.fbx')
 
     idleAnimation[0].name = 'idle';
     saluteAnimation[0].name = 'salute';
@@ -98,6 +98,6 @@ const Developer = ({ animationName = 'idle', ...props }) => {
     )
 }
 
-useGLTF.preload('/public/models/human/developer.glb')
+useGLTF.preload('/models/human/developer.glb')
 
 export default Developer;

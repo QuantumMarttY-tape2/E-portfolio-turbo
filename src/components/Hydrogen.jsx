@@ -10,7 +10,7 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
 const Hydrogen = (props) => {
-  const { nodes, materials } = useGLTF('/public/models/hydrogen.glb')
+  const { nodes, materials } = useGLTF('/models/hydrogen.glb')
   return (
     <group {...props} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, 0]}>
@@ -76,6 +76,6 @@ const Hydrogen = (props) => {
   )
 }
 
-useGLTF.preload('/public/models/hydrogen.glb')
+useGLTF.preload('/models/hydrogen.glb')
 
 export default Hydrogen;

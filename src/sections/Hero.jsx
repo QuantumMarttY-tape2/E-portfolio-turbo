@@ -1,19 +1,19 @@
 import { PerspectiveCamera } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import React, { Suspense } from "react";
-// import HearthStone from "/src/components/Hearthstone.jsx";
-import HackerRoom from "/src/components/HackerRoom.jsx";
-import CanvasLoader from "/src/components/CanvasLoader.jsx";
+// import HearthStone from "../components/Hearthstone";
+import HackerRoom from "../components/HackerRoom";
+import CanvasLoader from "../components/CanvasLoader";
 // import { Leva, useControls } from "leva";
 import { useMediaQuery } from "react-responsive";
 import { calculateSizes } from "../constants";
-import Target from "/src/components/Target.jsx";
-import Hydrogen from "/src/components/Hydrogen.jsx";
-import ReactLogo from "/src/components/ReactLogo.jsx";
-import Cube from "/src/components/Cube.jsx";
-import Rings from "/src/components/Rings.jsx";
-import HeroCamera from "/src/components/HeroCamera.jsx";
-import Button from "/src/components/Button.jsx";
+import Target from "../components/Target";
+import Hydrogen from "../components/Hydrogen";
+import ReactLogo from "../components/ReactLogo";
+import Cube from "../components/Cube";
+import Rings from "../components/Rings";
+import HeroCamera from "../components/HeroCamera";
+import Button from "../components/Button";
 
 const Hero = () => {
     // Define the small device's size.
