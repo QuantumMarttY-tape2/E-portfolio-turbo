@@ -59,10 +59,43 @@ export const navLinks = [
   
   export const myProjects = [
     {
+      title: 'Xora',
+      desc: 'Xora is a website that allows you to check information regarding a hypothetical app named Xora.',
+      subdesc:
+        'Built using React.js, Tailwindcss, and JavaScript, Xora is designed to show a user friendly interface about its payment plan, user reviews, and preview of the Xora app.',
+      href: 'https://floralwhite-guanaco-593048.hostingersite.com',
+      github: 'https://github.com/QuantumMarttY-tape2/Xora',
+      texture: '/assets/project-pics/xora.mp4',
+      logo: '/assets/project-pics/xora-logo.ico',
+      logoStyle: {
+        backgroundColor: '#2A1816',
+        border: '0.2px solid #36201D',
+        boxShadow: '0px 0px 60px 0px #AA3C304D',
+      },
+      spotlight: '/assets/spotlight1.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/tools-logo/react.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: '/assets/tools-logo/tailwindcss.png',
+        },
+        {
+          id: 3,
+          name: 'JavaScript',
+          path: '/assets/tools-logo/javascript.png',
+        },
+      ],
+    },
+    {
       title: 'YC Directory',
       desc: 'YC Directory is a website that allows you to check information about startup companies, and to post them after logging in using your GitHub account.',
       subdesc:
-        'Built using React.js, Next.js 15, Tailwindcss, and Typescript, as weel as shadcn, YC Directory is designed for people to have fun with creating out-of-context startup posts.',
+        'Built using React.js, Next.js 15, Tailwindcss, and TypeScript, as well as shadcn, YC Directory is designed for people to have fun with creating out-of-context startup posts.',
       href: 'https://yc-directory-beige-kappa.vercel.app',
       github: 'https://github.com/QuantumMarttY-tape2/yc_directory',
       texture: '/assets/project-pics/yc-directory.mp4',
