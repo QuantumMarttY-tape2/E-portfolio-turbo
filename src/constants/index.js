@@ -59,6 +59,44 @@ export const navLinks = [
   
   export const myProjects = [
     {
+      title: 'Zentry Clone',
+      desc: 'The website clone of zentry.com.',
+      subdesc:
+        'A website clone made by React.js, Tailwindcss, JavaScript, and GSAP.',
+      href: 'https://lightsteelblue-wasp-470426.hostingersite.com',
+      github: 'https://github.com/QuantumMarttY-tape2/zentry-clone',
+      texture: '/assets/project-pics/zentry-clone.mp4',
+      logo: '/assets/project-pics/zentry-clone-logo.png',
+      logoStyle: {
+        backgroundColor: '#2A1816',
+        border: '0.2px solid #36201D',
+        boxShadow: '0px 0px 60px 0px #AA3C304D',
+      },
+      spotlight: '/assets/spotlight1.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/tools-logo/react.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: '/assets/tools-logo/tailwindcss.png',
+        },
+        {
+          id: 3,
+          name: 'JavaScript',
+          path: '/assets/tools-logo/javascript.png',
+        },
+        {
+          id: 4,
+          name: 'GSAP',
+          path: '/assets/tools-logo/gsap.jpeg',
+        },
+      ],
+    },
+    {
       title: 'Xora',
       desc: 'Xora is a website that allows you to check information regarding a hypothetical app named Xora.',
       subdesc:
