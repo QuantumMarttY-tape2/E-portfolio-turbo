@@ -10,13 +10,13 @@ const Footer = () => {
             </div>
 
             <div className="flex gap-3">
-                <div className="social-icon">
+                <a className="social-icon" href="https://github.com/QuantumMarttY-tape2/E-portfolio-turbo" target="_blank">
                     <img
                         src="/assets/github.svg"
                         alt="github"
                         className="w-1/2 h-1/2"
                     />
-                </div>
+                </a>
             </div>
 
             <p className="text-white-500">© 2024 FuKun Yun All rights reserved</p>
