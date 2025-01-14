@@ -101,7 +101,19 @@ const About = () => {
                         {/* Paragraph. */}
                         <div className="">
                             <p className="grid-headtext">Something Else About Me</p>
-                            <p className="grid-subtext">Under construction... 🏗️</p>
+                            <p className="grid-subtext">
+                                Resume download:
+                                <a href="/assets/FuKun Yun Resume.pdf" target="_blank" className="">
+                                    <button className="arrow-btn">
+                                        <img
+                                            src="/assets/pdf.png"
+                                            alt="github"
+                                            className="w-4 h-4"
+                                        />
+                                    </button>
+                                </a>
+                            </p>
+                            <p className="grid-subtext">Phone number: +1 949-806-9141</p>
                         </div>
                     </div>
                 </div>

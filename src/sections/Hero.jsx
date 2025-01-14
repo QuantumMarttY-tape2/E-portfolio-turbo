@@ -41,7 +41,7 @@ const Hero = () => {
                     Toggle 3D models on and off here:
                     <button className="arrow-btn" onClick={toggle3D}>
                         <img
-                            src="/assets/github.svg"
+                            src="/assets/power-button.png"
                             alt="github"
                             className="w-4 h-4"
                         />

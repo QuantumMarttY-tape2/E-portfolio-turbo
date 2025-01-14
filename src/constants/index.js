@@ -168,6 +168,44 @@ export const navLinks = [
       ],
     },
     {
+      title: 'Old E-Portfolio',
+      desc: 'This is my older version of my E-Portfolio.',
+      subdesc:
+        'Built using React.js, Html5, Css3, and JavaScript, as an early showcase. You can also see the link on my resume.',
+      href: 'https://fukunyun.dev',
+      github: 'https://github.com/QuantumMarttY-tape2/E-portfolio-alt',
+      texture: '/assets/project-pics/old-portfolio.mp4',
+      logo: '/assets/project-pics/old-portfolio-logo.jpeg',
+      logoStyle: {
+        backgroundColor: '#13202F',
+        border: '0.2px solid #17293E',
+        boxShadow: '0px 0px 60px 0px #2F6DB54D',
+      },
+      spotlight: '/assets/spotlight2.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/tools-logo/react.svg',
+        },
+        {
+          id: 2,
+          name: 'Html5',
+          path: '/assets/tools-logo/html5.svg',
+        },
+        {
+          id: 3,
+          name: 'Css3',
+          path: '/assets/tools-logo/css3.png',
+        },
+        {
+          id: 4,
+          name: 'JavaScript',
+          path: '/assets/tools-logo/javascript.png',
+        },
+      ],
+    },
+    {
       title: 'Film Browser',
       desc: 'This custom-made film browser lets you search any movie in the database, and get all the information you need to know about it.',
       subdesc:
