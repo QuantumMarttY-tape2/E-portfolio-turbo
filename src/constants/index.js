@@ -59,6 +59,44 @@ export const navLinks = [
   
   export const myProjects = [
     {
+      title: 'University Library',
+      desc: 'A user-friendly university library website.',
+      subdesc:
+        'A website featuring PostgreSQL as database, a sign-up/sign-in system, and ratelimit for sign in to prevent ddox attack. Create an account to sign in. Admin side currently under construction 🚧.',
+      href: 'https://university-library-mocha-five.vercel.app',
+      github: 'https://github.com/QuantumMarttY-tape2/university-library',
+      texture: '/assets/project-pics/university-library.mp4',
+      logo: '/assets/project-pics/university-library-logo.png',
+      logoStyle: {
+        backgroundColor: '#2A1816',
+        border: '0.2px solid #36201D',
+        boxShadow: '0px 0px 60px 0px #AA3C304D',
+      },
+      spotlight: '/assets/spotlight1.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/tools-logo/react.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: '/assets/tools-logo/tailwindcss.png',
+        },
+        {
+          id: 3,
+          name: 'TypeScript',
+          path: '/assets/tools-logo/typescript.png',
+        },
+        {
+          id: 4,
+          name: 'Next.js',
+          path: '/assets/tools-logo/next-js.svg',
+        },
+      ],
+    },
+    {
       title: 'Zentry Clone',
       desc: 'The website clone of zentry.com.',
       subdesc:

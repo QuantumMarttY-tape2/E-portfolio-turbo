@@ -1,8 +1,8 @@
 import { PerspectiveCamera } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
-import React, { Suspense, useState } from "react";
+import { Suspense, useState } from "react";
 // import HearthStone from "../components/Hearthstone";
-import HackerRoom from "../components/HackerRoom";
+// import HackerRoom from "../components/HackerRoom";
 import CanvasLoader from "../components/CanvasLoader";
 // import { Leva, useControls } from "leva";
 import { useMediaQuery } from "react-responsive";
