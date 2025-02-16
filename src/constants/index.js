@@ -62,7 +62,7 @@ export const navLinks = [
       title: 'University Library',
       desc: 'A user-friendly university library website.',
       subdesc:
-        'A website featuring PostgreSQL as database, a sign-up/sign-in system, and ratelimit for sign in to prevent ddox attack. Create an account to sign in. Admin side currently under construction 🚧.',
+        'A website featuring PostgreSQL as database, a sign-up/sign-in system, and ratelimit for sign in to prevent ddox attack. Create an account to sign in. Admin side has a fully functional book-uploading system.',
       href: 'https://university-library-mocha-five.vercel.app',
       github: 'https://github.com/QuantumMarttY-tape2/university-library',
       texture: '/assets/project-pics/university-library.mp4',
